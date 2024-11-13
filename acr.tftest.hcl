@@ -3,11 +3,11 @@ provider "azurerm" {
 }
 
 variables {
-  acr_name            = "acrtfstestchn1"
-  resource_group_name = "rg-tfschool-dev-chn-1"
-  location            = "switzerlandnorth"
-  sku                 = "Standard"
-  admin_enabled       = true
+  azure_container_registry_name = "acrtfstestchn1"
+  resource_group_name           = "rg-tfschool-dev-chn-1"
+  location                      = "switzerlandnorth"
+  sku                           = "Standard"
+  admin_enabled                 = true
 
   tags = {
     SecfixOwner            = "florian.stelzer@ipt.ch"
